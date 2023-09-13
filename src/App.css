@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.icon-email {
+  padding-left: 25px;
+  background: url("assets/formIcon/at.svg") no-repeat left;
+  background-size: 20px;
+}
+
+.icon-nama {
+  padding-left: 25px;
+  background: url("assets/formIcon/nama.svg") no-repeat left;
+  background-size: 20px;
+}
+
+.icon-password {
+  padding-left: 25px;
+  background: url("assets/formIcon/password.svg") no-repeat left;
+  background-size: 20px;
+}
+
+.selected-link {
+  color: red;
+}
