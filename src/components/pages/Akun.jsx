@@ -36,7 +36,7 @@ export default function Akun() {
     e.preventDefault();
     try {
       dispatch(setLogout());
-      console.log("Logged out successfully.");
+      // console.log("Logged out successfully.");
       navigate("/");
     } catch (error) {
       dispatch(setError("Error during logout. Please try again later."));

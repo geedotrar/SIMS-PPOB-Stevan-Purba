@@ -46,7 +46,7 @@ export default function TopUp() {
     if (selectedOption && token) {
       dispatch(topUp(selectedOption, token))
         .then((response) => {
-          console.log("Top-up Berhasil:", response);
+          // console.log("Top-up Berhasil:", response);
           window.alert("Top Up Berhasil");
         })
         .catch((error) => {

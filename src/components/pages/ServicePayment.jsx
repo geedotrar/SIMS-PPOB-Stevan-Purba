@@ -52,7 +52,7 @@ export default function ServicePayment() {
     if (serviceCode && token) {
       dispatch(servicePaymentAction(serviceCode, token))
         .then((response) => {
-          console.log("Payment response:", response);
+          // console.log("Payment response:", response);
           window.alert("Payment Successful");
           navigate("/transaction");
         })

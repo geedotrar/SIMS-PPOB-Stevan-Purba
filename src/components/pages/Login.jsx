@@ -26,11 +26,12 @@ const Login = () => {
         const userToken = data.data.token;
         dispatch(setToken(userToken));
         dispatch(setError(null));
-        console.log("Logged in successfully. Token:", userToken);
         navigate("/akun");
+        window.alert("LOGIN BERHASIL");
       }
     } catch (error) {
       dispatch(setError(error.message || "Error during login. Please try again later."));
+      window.alert("LOGIN GAGAL EMAIL/PASSWORD SALAH");
     }
   };
 
