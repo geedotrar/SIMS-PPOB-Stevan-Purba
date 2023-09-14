@@ -18,7 +18,7 @@ export default function Header() {
             <h2 className="text-2xl text-gray-700 font-bold">
               <div className="flex">
                 <img src={logo} alt="logo" />
-                <NavLink to="/home">SIMS PPOB</NavLink>
+                <NavLink to="/homepage">SIMS PPOB</NavLink>
               </div>
             </h2>
             <div className="md:hidden">

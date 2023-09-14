@@ -17,13 +17,12 @@ function App() {
         <Header />
         <Switch>
           <Route exact path="/" element={<Login />} />
-          <Route path="/home" element={<HomePage />} />
+          <Route path="/homepage" element={<HomePage />} />
           <Route path="register" element={<Registrasi />}></Route>
           <Route path="/topUp" element={<TopUp />}></Route>
           <Route path="/transaction" element={<Transaction />}></Route>
           <Route path="/akun" element={<Akun />}></Route>
           <Route path="/ServicePayment/:serviceCode" element={<ServicePayment />}></Route>
-          <Route path="*" element={<Navigate to="/home" />} />
         </Switch>
       </Router>
     </div>
