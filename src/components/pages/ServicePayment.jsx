@@ -33,7 +33,7 @@ export default function ServicePayment() {
           dispatch(setBalance(balanceData));
         })
         .catch((error) => {
-          console.error("Error fetching balance:", error);
+          // console.error("Error fetching balance:", error);
         });
     }
   }, [token]);
