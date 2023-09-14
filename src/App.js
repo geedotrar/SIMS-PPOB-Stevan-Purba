@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes as Switch, Navigate } from "react-router-dom";
 import Login from "./components/pages/Login";
@@ -11,6 +11,9 @@ import ServicePayment from "./components/pages/ServicePayment";
 import Registrasi from "./components/pages/Registrasi";
 
 function App() {
+  useEffect(() => {
+    document.title = "SIMS PPOB-[Stevan Purba]";
+  }, []);
   return (
     <div>
       <Router>
