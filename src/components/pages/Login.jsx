@@ -27,7 +27,7 @@ const Login = () => {
         dispatch(setToken(userToken));
         dispatch(setError(null));
         console.log("Logged in successfully. Token:", userToken);
-        navigate("/home");
+        navigate("/akun");
       }
     } catch (error) {
       dispatch(setError(error.message || "Error during login. Please try again later."));
